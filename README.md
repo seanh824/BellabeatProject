@@ -27,8 +27,10 @@ Cited - Unknown, there is skepticism about the credibility of the Amazon Mechani
 Google Sheets, Google BigQuery, RStudio Cloud, Tableau
 ### Data Cleaning
 In BigQuery, the number of unique ‘Id’ values in each spreadsheet was counted, dailyActivity_merged (33), sleepDay_merged (24), and weightLogInfo_merged (8).  The syntax is as follows:
+
 ![file1](https://github.com/seanh824/BellabeatProject/assets/140123586/3adce867-0862-4806-9980-098762dd3840)
 Then, using Google Sheets, each unique ‘Id’ was conditional formatted in order to color code every row like such:
+
 ![file2](https://github.com/seanh824/BellabeatProject/assets/140123586/96cab103-c84f-44f0-a3de-402a71b06eca)
 
 
