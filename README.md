@@ -1,5 +1,4 @@
 # Bellabeat Case Study
-
 ## Introduction
 Bellabeat is a tech-driven wellness company for women that was founded by Urška Sršen and Sando Mur in 2013.  Through the collection of data on sleep, stress, activity, and reproductive health Bellabeat has given women the knowledge and power of their health.  Bellabeat’s product line includes:
 - Bellabeat App (a hub for all data tracked by Bellabeat products)
@@ -60,7 +59,6 @@ As confirmed from early data cleaning, only 8 participants submitted weight logs
 <img width="276" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/ea2b4bd8-c6ba-4b21-9bb5-45e0819d5d0d">
 
 Typically, a healthy adult should aim for approximately 10,000 steps per day.  However, the average number of steps in this dataset is 7,638.  1 in 4 participants averaged 3,790 steps or less per day, significantly lower than the recommended 10,000 steps.
-
 ### Calories
 
 <img width="267" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/b1352aad-80ff-4829-b4d2-d10f16443786">
@@ -92,7 +90,7 @@ Again, we see a direct relationship between total steps and calories burned.
 
 <img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/3c05039f-bb7a-4df2-9f56-c396f7284ae5">
 
-The resulting scatterplot shows an indirect relationship but is less pronounced than the direct relationships from the graphs above.  This suggests that calories can still be burned even with large amounts of one’s inactive days.
+The resulting scatterplot shows an indirect relationship but is less pronounced than the direct relationships from the graphs above.  This suggests that calories can still be burned even with large amounts of one’s day being inactive.
 ### Very Active Minutes vs Weight (lbs)
 A violin plot was created to illustrate which weight groups are most active:
 
@@ -163,13 +161,13 @@ The business task was to apply the findings of the data analysis to a single Bel
 Providing consumers with useful app features will immediately improve a range of Bellabeat products.  Consumers in this market may vary in their pursuit of physical fitness, which is why Bellabeat+ should exist.  Bellabeat+, $8.99/month, is geared towards very active consumers who want to optimize their current health standards: sleep, diet, and activity level.  Bellabeat+ is powered by an ai assistant - Bellabot, which gives the app character and performs quintessential parts of the premium subscription.  On the other hand, the free version of the Bellabeat App is designed for consumers looking to become more physically active.
 ### Bellabeat+
 Sleep Tracking
-●	Bellabot will learn how long you sleep and what time you typically wake up on specific days. It will notify you what time to be asleep to achieve what your body considers healthy sleep.  Bellabot will also notify you about any trends in your sleep, including failure to meet healthy sleep standards.
+- Bellabot will learn how long you sleep and what time you typically wake up on specific days. It will notify you what time to be asleep to achieve what your body considers healthy sleep.  Bellabot will also notify you about any trends in your sleep, including failure to meet healthy sleep standards.
 Nutrition Tracking
-●	Bellabeat+ allows users to input all of the foods and drinks they consume either via search or barcode scan.  Simply scan the food or drink packaging you consume and all major nutritional facts will automatically be counted towards your daily total.  If your food or drink has no barcode, you can search for the item in the food/drink database.   Bellabot will recommend daily caloric, protein, fat, and carbohydrate intake based on your current weight and targeted weight.  Bellabot also suggests an appropriate target date for meeting said desired weight, encouraging healthy eating habits and sustainable weight changes.
+- Bellabeat+ allows users to input all of the foods and drinks they consume either via search or barcode scan.  Simply scan the food or drink packaging you consume and all major nutritional facts will automatically be counted towards your daily total.  If your food or drink has no barcode, you can search for the item in the food/drink database.   Bellabot will recommend daily caloric, protein, fat, and carbohydrate intake based on your current weight and targeted weight.  Bellabot also suggests an appropriate target date for meeting said desired weight, encouraging healthy eating habits and sustainable weight changes.
 Cardio Progression System
-●	Users will be prompted to enter how many times a week they aim to run. Next, they’ll enter their current run distance and time and set a run distance and time goal.  The goal also comes with a deadline decided by the user themselves or Bellabot can recommend a healthy goal deadline.  By tracking runs with a Bellabeat smartwatch, Bellabot will let users know how they are progressing toward their running goals.
+- Users will be prompted to enter how many times a week they aim to run. Next, they’ll enter their current run distance and time and set a run distance and time goal.  The goal also comes with a deadline decided by the user themselves or Bellabot can recommend a healthy goal deadline.  By tracking runs with a Bellabeat smartwatch, Bellabot will let users know how they are progressing toward their running goals.
 Weight Lifting Progression System
-●	Bellabeat+ members will be prompted to enter their weekly workout plan by selecting exercises from a database.  They also have the option to let Bellabot generate a workout plan.  After, they’ll enter their current reps and weight of any workout they want to track.  Then, a reps and weight goal for said workouts will be set along with a deadline for achieving the goal.  Again, Bellabot will recommend a healthy target date, which helps prevent overexertion.  How frequently a user must update their current exercise reps and weight is dependent on when their goal deadline is.
+- Bellabeat+ members will be prompted to enter their weekly workout plan by selecting exercises from a database.  They also have the option to let Bellabot generate a workout plan.  After, they’ll enter their current reps and weight of any workout they want to track.  Then, a reps and weight goal for said workouts will be set along with a deadline for achieving the goal.  Again, Bellabot will recommend a healthy target date, which helps prevent overexertion.  How frequently a user must update their current exercise reps and weight is dependent on when their goal deadline is.
 ### The Free Version of the Bellabeat App
 There are a few big differences between the free version of the Bellabeat App and Bellabeat+.  First, smart bedtime notifications are not included and users can only view their last week of sleep logs.  Second, in regard to nutrition tracking, there is no barcode tracking in the free version of the Bellabeat App.  Lastly, the Cardio & Weight Lifting Progression System is exclusive to Bellabeat+, but purchasing a Bellabeat product comes with a 3-month free trial.
 ## References
