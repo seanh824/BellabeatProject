@@ -54,8 +54,7 @@ To get an initial understanding of the datasets, the summary function was used.
 
 <img width="295" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/d24eed13-d6e2-4a9e-b73e-87b8f204ac62">
 
-As confirmed from early data cleaning, only 8 participants submitted weight logs.  On top of that, 5 of the 8 participants submitted only 1 or 2 weight entries.![image](https://github.com/seanh824/BellabeatProject/assets/140123586/87ad7624-6903-4df9-bf77-48efdfeafb44)
-
+As confirmed from early data cleaning, only 8 participants submitted weight logs.  On top of that, 5 of the 8 participants submitted only 1 or 2 weight entries.
 ### Total Steps
 
 <img width="276" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/ea2b4bd8-c6ba-4b21-9bb5-45e0819d5d0d">
