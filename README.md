@@ -36,7 +36,7 @@ Then, using Google Sheets, each unique ‘Id’ was conditional formatted in ord
 
 In RStudio Cloud, the “tidyverse” “ggplot2” and “dplyr” packages were installed and the following data was imported:
 
-![image](https://github.com/seanh824/BellabeatProject/assets/140123586/ed908c51-7523-407a-91da-65799535b034)
+<img width="336" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/357cbf26-e010-4af3-b9e7-f3f9074df937">
 
 Data cleaning in RStudio Cloud began with the clean function.  Every row that contained missing values was removed.  The following syntax was applied to 2 of the datasets.  The weight log dataset contained a column with only two values, so that row, ‘Fat’, was removed:
 
