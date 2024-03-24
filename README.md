@@ -52,6 +52,7 @@ To get an initial understanding of the datasets, the summary function was used.
 
 <img width="303" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/08761e9f-47c1-4429-8175-68056148fa14">
 
+
 <img width="295" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/d24eed13-d6e2-4a9e-b73e-87b8f204ac62">
 
 As confirmed from early data cleaning, only 8 participants submitted weight logs.  On top of that, 5 of the 8 participants submitted only 1 or 2 weight entries.![image](https://github.com/seanh824/BellabeatProject/assets/140123586/87ad7624-6903-4df9-bf77-48efdfeafb44)
@@ -77,6 +78,7 @@ To produce a scatterplot with the ‘very active minutes' data to calories burne
 
 <img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/5c7a67f4-9bda-471c-93c6-184375578669">
 
+
 <img width="357" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/61e1ab73-8b66-481d-89e0-8eed73056dd4">
 
 The scatterplot illustrates a direct relationship between active minutes and calories burned.  It also points to the fact that most data in the ‘very active minutes’ axis is near or at zero, which confirms an earlier summary table.
@@ -84,12 +86,14 @@ The scatterplot illustrates a direct relationship between active minutes and cal
 
 <img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/de540db7-1a3d-490f-9597-db5c427a23b4">
 
+
 <img width="446" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/e1e97d38-1264-469d-a546-e63bedbebc30">
 
 Again, we see a direct relationship between total steps and calories burned.
 ### Sedentary Minutes vs Calories Burned
 
 <img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/d8c958c4-44b5-462e-94ea-b7a0a8ee6099">
+
 
 <img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/3c05039f-bb7a-4df2-9f56-c396f7284ae5">
 
