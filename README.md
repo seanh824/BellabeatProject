@@ -34,4 +34,87 @@ Then, using Google Sheets, each unique ‘Id’ was conditional formatted in ord
 
 ![file2](https://github.com/seanh824/BellabeatProject/assets/140123586/96cab103-c84f-44f0-a3de-402a71b06eca)
 
+In RStudio Cloud, the “tidyverse” “ggplot2” and “dplyr” packages were installed and the following data was imported:
+
+![image](https://github.com/seanh824/BellabeatProject/assets/140123586/ed908c51-7523-407a-91da-65799535b034)
+
+Data cleaning in RStudio Cloud began with the clean function.  Every row that contained missing values was removed.  The following syntax was applied to 2 of the datasets.  The weight log dataset contained a column with only two values, so that row, ‘Fat’, was removed:
+
+<img width="328" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/c530b87f-c821-448f-b7ff-f7ee591af6a2">
+
+The unique function, which was applied to all 3 datasets, was used to eliminate any duplicate value or row:
+
+<img width="325" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/98b1d6fd-e89b-4934-b190-49244a2d3d8f">
+
+## Analyze
+To get an initial understanding of the datasets, the summary function was used.
+### Average Weight (lbs)
+
+<img width="303" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/08761e9f-47c1-4429-8175-68056148fa14">
+
+<img width="295" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/d24eed13-d6e2-4a9e-b73e-87b8f204ac62">
+
+As confirmed from early data cleaning, only 8 participants submitted weight logs.  On top of that, 5 of the 8 participants submitted only 1 or 2 weight entries.![image](https://github.com/seanh824/BellabeatProject/assets/140123586/87ad7624-6903-4df9-bf77-48efdfeafb44)
+
+### Total Steps
+
+<img width="276" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/ea2b4bd8-c6ba-4b21-9bb5-45e0819d5d0d">
+
+Typically, a healthy adult should aim for approximately 10,000 steps per day.  However, the average number of steps in this dataset is 7,638.  1 in 4 participants averaged 3,790 steps or less per day, significantly lower than the recommended 10,000 steps.
+
+### Calories
+
+<img width="267" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/b1352aad-80ff-4829-b4d2-d10f16443786">
+
+The average number of calories burned per day for all participants is 2,304.  This is more than the suggested amount of calories for women (~2,000) but slightly behind the number of calories men should burn daily (~2,700).  Unfortunately, there are many limitations of this dataset, this being one of them.
+### Very Active Minutes
+
+<img width="276" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/08209cd2-e160-48f3-a978-33e9fd15f2ce">
+
+Half of all participants averaged 4 daily ‘very active minutes’, quite below the recommended 30 minutes of activity per day.
+### Very Active Minutes vs Calories Burned
+To produce a scatterplot with the ‘very active minutes' data to calories burned, the following code was entered:
+
+<img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/5c7a67f4-9bda-471c-93c6-184375578669">
+
+<img width="357" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/61e1ab73-8b66-481d-89e0-8eed73056dd4">
+
+The scatterplot illustrates a direct relationship between active minutes and calories burned.  It also points to the fact that most data in the ‘very active minutes’ axis is near or at zero, which confirms an earlier summary table.
+### Total Steps vs Calories Burned
+
+<img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/de540db7-1a3d-490f-9597-db5c427a23b4">
+
+<img width="446" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/e1e97d38-1264-469d-a546-e63bedbebc30">
+
+Again, we see a direct relationship between total steps and calories burned.
+### Sedentary Minutes vs Calories Burned
+
+<img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/d8c958c4-44b5-462e-94ea-b7a0a8ee6099">
+
+<img width="468" alt="image" src="https://github.com/seanh824/BellabeatProject/assets/140123586/3c05039f-bb7a-4df2-9f56-c396f7284ae5">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
